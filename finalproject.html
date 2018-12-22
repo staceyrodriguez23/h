@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+    
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  background-color: black;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: darkblue;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: darkblue;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: darkblue;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> Immigration </h1>
+  <p> by Stacey Rodriguez</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.nytimes.com/2018/12/20/us/mexico-border-photos.html">Link</a>
+  <a href="https://abcnews.go.com/International/wireStory/toughest-year-us-immigration-dominated-2018-59949780">Link</a>
+  <a href="https://www.cnn.com/2018/12/20/opinions/gofundme-border-wall-trump-deception-kohn/index.html">Link</a>
+  <a href="#" style="float:right"> </a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Trump's America </h2>
+      <h5>A central idea to Trump's campaign and presidency has been "building the wall". His reasonings perpetuates stereotypes and constinues to instill fear in the masses. 
+    Immigration laws need to be revised because many seeking asylum get denied and those wanting a better life can not achieve it. 
+    </h5>
+     <img src= "photowall.jpg" width="600px" height="530px" />  <img src= "teargassing.jpg" width="600px" height="530px" />
+    <img src= "gofundme.jpg" width="700px" height="530px" />
+
+      <p> </p>
+      <p> A GoFundMe page was created to help fund the building of the wall. The description read </p>
+
+        <div> "Like a  majority of those American citizens who voted to elect President Donald J Trump, we voted for him to Make America Great Again. President Trump’s main campaign promise was to BUILD THE WALL. And as he’s followed through on just about every promise so far, this wall project needs to be completed still. </div>
+          <div>As a veteran who has given so much, 3 limbs, I feel deeply invested to this nation to ensure future generations have everything we have today. Too many Americans have been murdered by illegal aliens and too many illegals are taking advantage of  the United States taxpayers with no means of ever contributing to our society."  </div> 
+        <p> This wall and idea of a wall continues to push fear of immigration.  </p>
+    </div>
+    <div class="card">
+      <h2> My Art Response </h2>
+      <h5> </h5>
+       <img src= "presenttrumpwagegap%20copy.jpg" width="600px" height="530px" />   <img src= "reconstruction.jpg" width="600px" height="530px" /> 
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2> stay informed </h2>
+      <h2> vote </h2>
+     <p>
+    </div>
+    <div class="card">
+      <h3> </h3>
+      <div class="fakeimg"><p></p></div>
+      <div class="fakeimg"><p></p></div>
+      <div class="fakeimg"><p></p></div>
+    </div>
+    <div class="card">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2> </h2>
+</div>
+
+</body>
+</html>
